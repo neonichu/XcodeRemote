@@ -22,7 +22,7 @@
 		A1B9D4F71AF6820D002128F3 /* XcodeRemote WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = A1B9D4F61AF6820D002128F3 /* XcodeRemote WatchKit App.app */; };
 		A1B9D4FF1AF6820D002128F3 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1B9D4FD1AF6820D002128F3 /* Interface.storyboard */; };
 		A1B9D5011AF6820D002128F3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1B9D5001AF6820D002128F3 /* Images.xcassets */; };
-		A1B9D5041AF6820D002128F3 /* XcodeRemote WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = A1B9D4EC1AF6820D002128F3 /* XcodeRemote WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A1FA84FA1AF697F400DA1FDD /* XcodeRemote WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = A1B9D4EC1AF6820D002128F3 /* XcodeRemote WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		F531F493E63A56261AA30179 /* Pods_XcodeRemote.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F85A1DD2C6D331F44E7F43AC /* Pods_XcodeRemote.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
@@ -34,7 +34,7 @@
 			remoteGlobalIDString = A1B9D4F51AF6820D002128F3;
 			remoteInfo = "XcodeRemote WatchKit App";
 		};
-		A1B9D5021AF6820D002128F3 /* PBXContainerItemProxy */ = {
+		A1FA84F81AF697E300DA1FDD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = A1B9D46A1AF67A63002128F3 /* Project object */;
 			proxyType = 1;
@@ -44,13 +44,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		A1B9D50B1AF6820D002128F3 /* Embed App Extensions */ = {
+		A1FA84FB1AF697F400DA1FDD /* Embed App Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				A1B9D5041AF6820D002128F3 /* XcodeRemote WatchKit Extension.appex in Embed App Extensions */,
+				A1FA84FA1AF697F400DA1FDD /* XcodeRemote WatchKit Extension.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -235,14 +235,12 @@
 				A1B9D46E1AF67A63002128F3 /* Sources */,
 				A1B9D46F1AF67A63002128F3 /* Frameworks */,
 				A1B9D4701AF67A63002128F3 /* Resources */,
-				A1B9D50B1AF6820D002128F3 /* Embed App Extensions */,
 				0C4C12B4F9D403A2FEFACB0E /* Embed Pods Frameworks */,
 				8493C988C485AA5055378D2A /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				A1B9D5031AF6820D002128F3 /* PBXTargetDependency */,
 			);
 			name = XcodeRemote;
 			productName = XcodeRemote;
@@ -259,10 +257,12 @@
 				A1B9D4C41AF681AE002128F3 /* Resources */,
 				3E9AA196B977CD5E5F40E0AD /* Embed Pods Frameworks */,
 				EA6A9C4361C20AA5A7B4B11D /* Copy Pods Resources */,
+				A1FA84FB1AF697F400DA1FDD /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				A1FA84F91AF697E300DA1FDD /* PBXTargetDependency */,
 			);
 			name = XcodeRemotePhone;
 			productName = XcodeRemotePhone;
@@ -561,10 +561,10 @@
 			target = A1B9D4F51AF6820D002128F3 /* XcodeRemote WatchKit App */;
 			targetProxy = A1B9D4F81AF6820D002128F3 /* PBXContainerItemProxy */;
 		};
-		A1B9D5031AF6820D002128F3 /* PBXTargetDependency */ = {
+		A1FA84F91AF697E300DA1FDD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = A1B9D4EB1AF6820D002128F3 /* XcodeRemote WatchKit Extension */;
-			targetProxy = A1B9D5021AF6820D002128F3 /* PBXContainerItemProxy */;
+			targetProxy = A1FA84F81AF697E300DA1FDD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -644,6 +644,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -682,6 +683,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
@@ -717,6 +719,7 @@
 			baseConfigurationReference = 92693ED1BD228E1CC3B9706D /* Pods-XcodeRemotePhone.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -724,7 +727,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = XcodeRemotePhone/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
@@ -736,9 +739,10 @@
 			baseConfigurationReference = CD71BE794AFFEECF95971E2C /* Pods-XcodeRemotePhone.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = XcodeRemotePhone/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
@@ -750,6 +754,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -757,7 +762,7 @@
 				);
 				IBSC_MODULE = XcodeRemote_WatchKit_Extension;
 				INFOPLIST_FILE = "XcodeRemote WatchKit App/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -770,9 +775,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				IBSC_MODULE = XcodeRemote_WatchKit_Extension;
 				INFOPLIST_FILE = "XcodeRemote WatchKit App/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -786,13 +792,14 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 94D07ED2F520B7D4BC3C5FA8 /* Pods-XcodeRemote WatchKit Extension.debug.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "XcodeRemote WatchKit Extension/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = iphoneos;
@@ -804,8 +811,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7392BADEA6B8B3033DC8AD2B /* Pods-XcodeRemote WatchKit Extension.release.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "XcodeRemote WatchKit Extension/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = iphoneos;

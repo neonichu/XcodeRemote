@@ -42,9 +42,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A1B9D4711AF67A63002128F3"
-               BuildableName = "XcodeRemote.app"
-               BlueprintName = "XcodeRemote"
+               BlueprintIdentifier = "A1B9D4C51AF681AE002128F3"
+               BuildableName = "XcodeRemotePhone.app"
+               BlueprintName = "XcodeRemotePhone"
                ReferencedContainer = "container:XcodeRemote.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
