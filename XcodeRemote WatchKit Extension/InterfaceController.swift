@@ -6,26 +6,14 @@
 //  Copyright (c) 2015 Boris Bügling. All rights reserved.
 //
 
-import WatchKit
 import Foundation
-
+import Stargate
+import WatchKit
 
 class InterfaceController: WKInterfaceController {
-
-    override func awakeWithContext(context: AnyObject?) {
-        super.awakeWithContext(context)
-        
-        // Configure interface objects here.
+    let stargate = Atlantis(applicationGroupIdentifier: XCRemoteAppGroupIdentifier)
+    
+    @IBAction func deleteDerivedDataTapped() {
+        stargate.passMessage(XCRemoteCommand.DeleteDerivedData.rawValue, identifier: XCRemoteChannel.PhoneCommand.rawValue)
     }
-
-    override func willActivate() {
-        // This method is called when watch view controller is about to be visible to user
-        super.willActivate()
-    }
-
-    override func didDeactivate() {
-        // This method is called when watch view controller is no longer visible
-        super.didDeactivate()
-    }
-
 }

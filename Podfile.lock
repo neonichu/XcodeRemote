@@ -22,7 +22,7 @@ CHECKOUT OPTIONS:
     :commit: cd1a74f64472305414d9bfeb58ac7049b05397f4
     :git: https://github.com/jpsim/PeerKit
   Stargate:
-    :commit: 55f98b59a18d338312fbd3b8f5e790437de5ebc8
+    :commit: 954317b40e7c90efc05b75fb27be3c167fa48287
     :git: https://github.com/contentful-labs/Stargate
 
 SPEC CHECKSUMS:
