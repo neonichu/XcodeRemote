@@ -11,7 +11,48 @@
 		A1B9D47C1AF67A63002128F3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1B9D47B1AF67A63002128F3 /* Images.xcassets */; };
 		A1B9D47F1AF67A63002128F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1B9D47D1AF67A63002128F3 /* Main.storyboard */; };
 		A1B9D4961AF67B61002128F3 /* dock-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A1B9D4951AF67B61002128F3 /* dock-icon@2x.png */; };
+		A1B9D4CB1AF681AE002128F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B9D4CA1AF681AE002128F3 /* AppDelegate.swift */; };
+		A1B9D4D01AF681AE002128F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1B9D4CE1AF681AE002128F3 /* Main.storyboard */; };
+		A1B9D4D21AF681AE002128F3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1B9D4D11AF681AE002128F3 /* Images.xcassets */; };
+		A1B9D4D51AF681AE002128F3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1B9D4D31AF681AE002128F3 /* LaunchScreen.xib */; };
+		A1B9D4F11AF6820D002128F3 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B9D4F01AF6820D002128F3 /* InterfaceController.swift */; };
+		A1B9D4F31AF6820D002128F3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1B9D4F21AF6820D002128F3 /* Images.xcassets */; };
+		A1B9D4F71AF6820D002128F3 /* XcodeRemote WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = A1B9D4F61AF6820D002128F3 /* XcodeRemote WatchKit App.app */; };
+		A1B9D4FF1AF6820D002128F3 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1B9D4FD1AF6820D002128F3 /* Interface.storyboard */; };
+		A1B9D5011AF6820D002128F3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1B9D5001AF6820D002128F3 /* Images.xcassets */; };
+		A1B9D5041AF6820D002128F3 /* XcodeRemote WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = A1B9D4EC1AF6820D002128F3 /* XcodeRemote WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A1B9D4F81AF6820D002128F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1B9D46A1AF67A63002128F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1B9D4F51AF6820D002128F3;
+			remoteInfo = "XcodeRemote WatchKit App";
+		};
+		A1B9D5021AF6820D002128F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1B9D46A1AF67A63002128F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1B9D4EB1AF6820D002128F3;
+			remoteInfo = "XcodeRemote WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A1B9D50B1AF6820D002128F3 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				A1B9D5041AF6820D002128F3 /* XcodeRemote WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		A1B9D4721AF67A63002128F3 /* XcodeRemote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XcodeRemote.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -20,10 +61,38 @@
 		A1B9D47B1AF67A63002128F3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		A1B9D47E1AF67A63002128F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A1B9D4951AF67B61002128F3 /* dock-icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dock-icon@2x.png"; sourceTree = "<group>"; };
+		A1B9D4C61AF681AE002128F3 /* XcodeRemotePhone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XcodeRemotePhone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1B9D4C91AF681AE002128F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1B9D4CA1AF681AE002128F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A1B9D4CF1AF681AE002128F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A1B9D4D11AF681AE002128F3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A1B9D4D41AF681AE002128F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A1B9D4EC1AF6820D002128F3 /* XcodeRemote WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "XcodeRemote WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1B9D4EF1AF6820D002128F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1B9D4F01AF6820D002128F3 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		A1B9D4F21AF6820D002128F3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A1B9D4F61AF6820D002128F3 /* XcodeRemote WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "XcodeRemote WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1B9D4FC1AF6820D002128F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1B9D4FE1AF6820D002128F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		A1B9D5001AF6820D002128F3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		A1B9D46F1AF67A63002128F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1B9D4C31AF681AE002128F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1B9D4E91AF6820D002128F3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -40,6 +109,9 @@
 				A1B9D4731AF67A63002128F3 /* Products */,
 				A1B9D4941AF67A83002128F3 /* Resources */,
 				A1B9D4751AF67A63002128F3 /* Supporting Files */,
+				A1B9D4C71AF681AE002128F3 /* XcodeRemotePhone */,
+				A1B9D4FA1AF6820D002128F3 /* XcodeRemote WatchKit App */,
+				A1B9D4ED1AF6820D002128F3 /* XcodeRemote WatchKit Extension */,
 			);
 			sourceTree = "<group>";
 		};
@@ -47,6 +119,9 @@
 			isa = PBXGroup;
 			children = (
 				A1B9D4721AF67A63002128F3 /* XcodeRemote.app */,
+				A1B9D4C61AF681AE002128F3 /* XcodeRemotePhone.app */,
+				A1B9D4EC1AF6820D002128F3 /* XcodeRemote WatchKit Extension.appex */,
+				A1B9D4F61AF6820D002128F3 /* XcodeRemote WatchKit App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -77,6 +152,38 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
+		A1B9D4C71AF681AE002128F3 /* XcodeRemotePhone */ = {
+			isa = PBXGroup;
+			children = (
+				A1B9D4CA1AF681AE002128F3 /* AppDelegate.swift */,
+				A1B9D4D11AF681AE002128F3 /* Images.xcassets */,
+				A1B9D4C91AF681AE002128F3 /* Info.plist */,
+				A1B9D4D31AF681AE002128F3 /* LaunchScreen.xib */,
+				A1B9D4CE1AF681AE002128F3 /* Main.storyboard */,
+			);
+			path = XcodeRemotePhone;
+			sourceTree = "<group>";
+		};
+		A1B9D4ED1AF6820D002128F3 /* XcodeRemote WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				A1B9D4F21AF6820D002128F3 /* Images.xcassets */,
+				A1B9D4EF1AF6820D002128F3 /* Info.plist */,
+				A1B9D4F01AF6820D002128F3 /* InterfaceController.swift */,
+			);
+			path = "XcodeRemote WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		A1B9D4FA1AF6820D002128F3 /* XcodeRemote WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				A1B9D5001AF6820D002128F3 /* Images.xcassets */,
+				A1B9D4FD1AF6820D002128F3 /* Interface.storyboard */,
+				A1B9D4FC1AF6820D002128F3 /* Info.plist */,
+			);
+			path = "XcodeRemote WatchKit App";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -87,15 +194,67 @@
 				A1B9D46E1AF67A63002128F3 /* Sources */,
 				A1B9D46F1AF67A63002128F3 /* Frameworks */,
 				A1B9D4701AF67A63002128F3 /* Resources */,
+				A1B9D50B1AF6820D002128F3 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				A1B9D5031AF6820D002128F3 /* PBXTargetDependency */,
 			);
 			name = XcodeRemote;
 			productName = XcodeRemote;
 			productReference = A1B9D4721AF67A63002128F3 /* XcodeRemote.app */;
 			productType = "com.apple.product-type.application";
+		};
+		A1B9D4C51AF681AE002128F3 /* XcodeRemotePhone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1B9D4E61AF681AE002128F3 /* Build configuration list for PBXNativeTarget "XcodeRemotePhone" */;
+			buildPhases = (
+				A1B9D4C21AF681AE002128F3 /* Sources */,
+				A1B9D4C31AF681AE002128F3 /* Frameworks */,
+				A1B9D4C41AF681AE002128F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XcodeRemotePhone;
+			productName = XcodeRemotePhone;
+			productReference = A1B9D4C61AF681AE002128F3 /* XcodeRemotePhone.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A1B9D4EB1AF6820D002128F3 /* XcodeRemote WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1B9D5081AF6820D002128F3 /* Build configuration list for PBXNativeTarget "XcodeRemote WatchKit Extension" */;
+			buildPhases = (
+				A1B9D4E81AF6820D002128F3 /* Sources */,
+				A1B9D4E91AF6820D002128F3 /* Frameworks */,
+				A1B9D4EA1AF6820D002128F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1B9D4F91AF6820D002128F3 /* PBXTargetDependency */,
+			);
+			name = "XcodeRemote WatchKit Extension";
+			productName = "XcodeRemote WatchKit Extension";
+			productReference = A1B9D4EC1AF6820D002128F3 /* XcodeRemote WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		A1B9D4F51AF6820D002128F3 /* XcodeRemote WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1B9D5051AF6820D002128F3 /* Build configuration list for PBXNativeTarget "XcodeRemote WatchKit App" */;
+			buildPhases = (
+				A1B9D4F41AF6820D002128F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "XcodeRemote WatchKit App";
+			productName = "XcodeRemote WatchKit App";
+			productReference = A1B9D4F61AF6820D002128F3 /* XcodeRemote WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
 		};
 /* End PBXNativeTarget section */
 
@@ -107,6 +266,15 @@
 				ORGANIZATIONNAME = "Boris Bügling";
 				TargetAttributes = {
 					A1B9D4711AF67A63002128F3 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					A1B9D4C51AF681AE002128F3 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					A1B9D4EB1AF6820D002128F3 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					A1B9D4F51AF6820D002128F3 = {
 						CreatedOnToolsVersion = 6.3.1;
 					};
 				};
@@ -125,6 +293,9 @@
 			projectRoot = "";
 			targets = (
 				A1B9D4711AF67A63002128F3 /* XcodeRemote */,
+				A1B9D4C51AF681AE002128F3 /* XcodeRemotePhone */,
+				A1B9D4EB1AF6820D002128F3 /* XcodeRemote WatchKit Extension */,
+				A1B9D4F51AF6820D002128F3 /* XcodeRemote WatchKit App */,
 			);
 		};
 /* End PBXProject section */
@@ -140,6 +311,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A1B9D4C41AF681AE002128F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1B9D4D01AF681AE002128F3 /* Main.storyboard in Resources */,
+				A1B9D4D51AF681AE002128F3 /* LaunchScreen.xib in Resources */,
+				A1B9D4D21AF681AE002128F3 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1B9D4EA1AF6820D002128F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1B9D4F71AF6820D002128F3 /* XcodeRemote WatchKit App.app in Resources */,
+				A1B9D4F31AF6820D002128F3 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1B9D4F41AF6820D002128F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1B9D4FF1AF6820D002128F3 /* Interface.storyboard in Resources */,
+				A1B9D5011AF6820D002128F3 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -151,7 +350,36 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A1B9D4C21AF681AE002128F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1B9D4CB1AF681AE002128F3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1B9D4E81AF6820D002128F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1B9D4F11AF6820D002128F3 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A1B9D4F91AF6820D002128F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1B9D4F51AF6820D002128F3 /* XcodeRemote WatchKit App */;
+			targetProxy = A1B9D4F81AF6820D002128F3 /* PBXContainerItemProxy */;
+		};
+		A1B9D5031AF6820D002128F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1B9D4EB1AF6820D002128F3 /* XcodeRemote WatchKit Extension */;
+			targetProxy = A1B9D5021AF6820D002128F3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		A1B9D47D1AF67A63002128F3 /* Main.storyboard */ = {
@@ -160,6 +388,33 @@
 				A1B9D47E1AF67A63002128F3 /* Base */,
 			);
 			name = Main.storyboard;
+			path = .;
+			sourceTree = "<group>";
+		};
+		A1B9D4CE1AF681AE002128F3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1B9D4CF1AF681AE002128F3 /* Base */,
+			);
+			name = Main.storyboard;
+			path = .;
+			sourceTree = "<group>";
+		};
+		A1B9D4D31AF681AE002128F3 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1B9D4D41AF681AE002128F3 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			path = .;
+			sourceTree = "<group>";
+		};
+		A1B9D4FD1AF6820D002128F3 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1B9D4FE1AF6820D002128F3 /* Base */,
+			);
+			name = Interface.storyboard;
 			path = .;
 			sourceTree = "<group>";
 		};
@@ -268,6 +523,104 @@
 			};
 			name = Release;
 		};
+		A1B9D4E21AF681AE002128F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = XcodeRemotePhone/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A1B9D4E31AF681AE002128F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = XcodeRemotePhone/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A1B9D5061AF6820D002128F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = XcodeRemote_WatchKit_Extension;
+				INFOPLIST_FILE = "XcodeRemote WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		A1B9D5071AF6820D002128F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = XcodeRemote_WatchKit_Extension;
+				INFOPLIST_FILE = "XcodeRemote WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A1B9D5091AF6820D002128F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "XcodeRemote WatchKit Extension/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A1B9D50A1AF6820D002128F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "XcodeRemote WatchKit Extension/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -285,6 +638,33 @@
 			buildConfigurations = (
 				A1B9D48F1AF67A64002128F3 /* Debug */,
 				A1B9D4901AF67A64002128F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1B9D4E61AF681AE002128F3 /* Build configuration list for PBXNativeTarget "XcodeRemotePhone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1B9D4E21AF681AE002128F3 /* Debug */,
+				A1B9D4E31AF681AE002128F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1B9D5051AF6820D002128F3 /* Build configuration list for PBXNativeTarget "XcodeRemote WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1B9D5061AF6820D002128F3 /* Debug */,
+				A1B9D5071AF6820D002128F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1B9D5081AF6820D002128F3 /* Build configuration list for PBXNativeTarget "XcodeRemote WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1B9D5091AF6820D002128F3 /* Debug */,
+				A1B9D50A1AF6820D002128F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
