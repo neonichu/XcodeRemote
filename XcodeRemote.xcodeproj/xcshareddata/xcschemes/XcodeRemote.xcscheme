@@ -20,20 +20,6 @@
                ReferencedContainer = "container:XcodeRemote.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A1B9D4831AF67A63002128F3"
-               BuildableName = "XcodeRemoteTests.xctest"
-               BlueprintName = "XcodeRemoteTests"
-               ReferencedContainer = "container:XcodeRemote.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction

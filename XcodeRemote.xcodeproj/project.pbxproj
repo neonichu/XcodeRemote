@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		03D46AA9F49DEBBB7230F0AC /* Pods_XcodeRemote_WatchKit_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1974CC3DAF4CC69561C758B /* Pods_XcodeRemote_WatchKit_Extension.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		9DBC4C2E15C3DF6B8BA16904 /* Pods_XcodeRemotePhone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D0C44D274FEE99297036ECC /* Pods_XcodeRemotePhone.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		A1B9D4781AF67A63002128F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B9D4771AF67A63002128F3 /* AppDelegate.swift */; };
 		A1B9D47C1AF67A63002128F3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1B9D47B1AF67A63002128F3 /* Images.xcassets */; };
 		A1B9D47F1AF67A63002128F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1B9D47D1AF67A63002128F3 /* Main.storyboard */; };
@@ -21,6 +23,7 @@
 		A1B9D4FF1AF6820D002128F3 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1B9D4FD1AF6820D002128F3 /* Interface.storyboard */; };
 		A1B9D5011AF6820D002128F3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1B9D5001AF6820D002128F3 /* Images.xcassets */; };
 		A1B9D5041AF6820D002128F3 /* XcodeRemote WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = A1B9D4EC1AF6820D002128F3 /* XcodeRemote WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F531F493E63A56261AA30179 /* Pods_XcodeRemote.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F85A1DD2C6D331F44E7F43AC /* Pods_XcodeRemote.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +58,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		24F7B82253B57096473DDA05 /* Pods-XcodeRemote.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XcodeRemote.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XcodeRemote/Pods-XcodeRemote.debug.xcconfig"; sourceTree = "<group>"; };
+		5D0C44D274FEE99297036ECC /* Pods_XcodeRemotePhone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XcodeRemotePhone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7392BADEA6B8B3033DC8AD2B /* Pods-XcodeRemote WatchKit Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XcodeRemote WatchKit Extension.release.xcconfig"; path = "Pods/Target Support Files/Pods-XcodeRemote WatchKit Extension/Pods-XcodeRemote WatchKit Extension.release.xcconfig"; sourceTree = "<group>"; };
+		92693ED1BD228E1CC3B9706D /* Pods-XcodeRemotePhone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XcodeRemotePhone.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XcodeRemotePhone/Pods-XcodeRemotePhone.debug.xcconfig"; sourceTree = "<group>"; };
+		932F2A30C89434072F38CE65 /* Pods-XcodeRemote.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XcodeRemote.release.xcconfig"; path = "Pods/Target Support Files/Pods-XcodeRemote/Pods-XcodeRemote.release.xcconfig"; sourceTree = "<group>"; };
+		94D07ED2F520B7D4BC3C5FA8 /* Pods-XcodeRemote WatchKit Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XcodeRemote WatchKit Extension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XcodeRemote WatchKit Extension/Pods-XcodeRemote WatchKit Extension.debug.xcconfig"; sourceTree = "<group>"; };
 		A1B9D4721AF67A63002128F3 /* XcodeRemote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XcodeRemote.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1B9D4761AF67A63002128F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A1B9D4771AF67A63002128F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -75,6 +84,9 @@
 		A1B9D4FC1AF6820D002128F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A1B9D4FE1AF6820D002128F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
 		A1B9D5001AF6820D002128F3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CD71BE794AFFEECF95971E2C /* Pods-XcodeRemotePhone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XcodeRemotePhone.release.xcconfig"; path = "Pods/Target Support Files/Pods-XcodeRemotePhone/Pods-XcodeRemotePhone.release.xcconfig"; sourceTree = "<group>"; };
+		D1974CC3DAF4CC69561C758B /* Pods_XcodeRemote_WatchKit_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XcodeRemote_WatchKit_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F85A1DD2C6D331F44E7F43AC /* Pods_XcodeRemote.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XcodeRemote.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F531F493E63A56261AA30179 /* Pods_XcodeRemote.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,6 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DBC4C2E15C3DF6B8BA16904 /* Pods_XcodeRemotePhone.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,16 +110,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03D46AA9F49DEBBB7230F0AC /* Pods_XcodeRemote_WatchKit_Extension.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		51F7E38E9D635D97856F47AF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F85A1DD2C6D331F44E7F43AC /* Pods_XcodeRemote.framework */,
+				D1974CC3DAF4CC69561C758B /* Pods_XcodeRemote_WatchKit_Extension.framework */,
+				5D0C44D274FEE99297036ECC /* Pods_XcodeRemotePhone.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A1B9D4691AF67A63002128F3 = {
 			isa = PBXGroup;
 			children = (
 				A1B9D4741AF67A63002128F3 /* Code */,
+				51F7E38E9D635D97856F47AF /* Frameworks */,
+				DA946224CC12DDBF20AECB2D /* Pods */,
 				A1B9D4731AF67A63002128F3 /* Products */,
 				A1B9D4941AF67A83002128F3 /* Resources */,
 				A1B9D4751AF67A63002128F3 /* Supporting Files */,
@@ -184,6 +211,19 @@
 			path = "XcodeRemote WatchKit App";
 			sourceTree = "<group>";
 		};
+		DA946224CC12DDBF20AECB2D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				24F7B82253B57096473DDA05 /* Pods-XcodeRemote.debug.xcconfig */,
+				932F2A30C89434072F38CE65 /* Pods-XcodeRemote.release.xcconfig */,
+				94D07ED2F520B7D4BC3C5FA8 /* Pods-XcodeRemote WatchKit Extension.debug.xcconfig */,
+				7392BADEA6B8B3033DC8AD2B /* Pods-XcodeRemote WatchKit Extension.release.xcconfig */,
+				92693ED1BD228E1CC3B9706D /* Pods-XcodeRemotePhone.debug.xcconfig */,
+				CD71BE794AFFEECF95971E2C /* Pods-XcodeRemotePhone.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -191,10 +231,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A1B9D48E1AF67A64002128F3 /* Build configuration list for PBXNativeTarget "XcodeRemote" */;
 			buildPhases = (
+				C5CB42EB929726FAD7261026 /* Check Pods Manifest.lock */,
 				A1B9D46E1AF67A63002128F3 /* Sources */,
 				A1B9D46F1AF67A63002128F3 /* Frameworks */,
 				A1B9D4701AF67A63002128F3 /* Resources */,
 				A1B9D50B1AF6820D002128F3 /* Embed App Extensions */,
+				0C4C12B4F9D403A2FEFACB0E /* Embed Pods Frameworks */,
+				8493C988C485AA5055378D2A /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -210,9 +253,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A1B9D4E61AF681AE002128F3 /* Build configuration list for PBXNativeTarget "XcodeRemotePhone" */;
 			buildPhases = (
+				2E64FCBEC0B2BE9851CEEDCE /* Check Pods Manifest.lock */,
 				A1B9D4C21AF681AE002128F3 /* Sources */,
 				A1B9D4C31AF681AE002128F3 /* Frameworks */,
 				A1B9D4C41AF681AE002128F3 /* Resources */,
+				3E9AA196B977CD5E5F40E0AD /* Embed Pods Frameworks */,
+				EA6A9C4361C20AA5A7B4B11D /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -227,9 +273,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A1B9D5081AF6820D002128F3 /* Build configuration list for PBXNativeTarget "XcodeRemote WatchKit Extension" */;
 			buildPhases = (
+				A8A7C01603041A7DFF017029 /* Check Pods Manifest.lock */,
 				A1B9D4E81AF6820D002128F3 /* Sources */,
 				A1B9D4E91AF6820D002128F3 /* Frameworks */,
 				A1B9D4EA1AF6820D002128F3 /* Resources */,
+				D918BD4450454162492DDC49 /* Embed Pods Frameworks */,
+				404B13BECC6A762A2708DD20 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -340,6 +389,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0C4C12B4F9D403A2FEFACB0E /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XcodeRemote/Pods-XcodeRemote-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2E64FCBEC0B2BE9851CEEDCE /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3E9AA196B977CD5E5F40E0AD /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XcodeRemotePhone/Pods-XcodeRemotePhone-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		404B13BECC6A762A2708DD20 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XcodeRemote WatchKit Extension/Pods-XcodeRemote WatchKit Extension-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8493C988C485AA5055378D2A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XcodeRemote/Pods-XcodeRemote-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A8A7C01603041A7DFF017029 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C5CB42EB929726FAD7261026 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D918BD4450454162492DDC49 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XcodeRemote WatchKit Extension/Pods-XcodeRemote WatchKit Extension-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA6A9C4361C20AA5A7B4B11D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XcodeRemotePhone/Pods-XcodeRemotePhone-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A1B9D46E1AF67A63002128F3 /* Sources */ = {
@@ -503,6 +690,7 @@
 		};
 		A1B9D48F1AF67A64002128F3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24F7B82253B57096473DDA05 /* Pods-XcodeRemote.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -514,6 +702,7 @@
 		};
 		A1B9D4901AF67A64002128F3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 932F2A30C89434072F38CE65 /* Pods-XcodeRemote.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -525,6 +714,7 @@
 		};
 		A1B9D4E21AF681AE002128F3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92693ED1BD228E1CC3B9706D /* Pods-XcodeRemotePhone.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -543,6 +733,7 @@
 		};
 		A1B9D4E31AF681AE002128F3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD71BE794AFFEECF95971E2C /* Pods-XcodeRemotePhone.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -593,6 +784,7 @@
 		};
 		A1B9D5091AF6820D002128F3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94D07ED2F520B7D4BC3C5FA8 /* Pods-XcodeRemote WatchKit Extension.debug.xcconfig */;
 			buildSettings = {
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -610,6 +802,7 @@
 		};
 		A1B9D50A1AF6820D002128F3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7392BADEA6B8B3033DC8AD2B /* Pods-XcodeRemote WatchKit Extension.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = "XcodeRemote WatchKit Extension/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;

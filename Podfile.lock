@@ -1,0 +1,33 @@
+PODS:
+  - MMWormhole (1.1.1):
+    - MMWormhole/Core (= 1.1.1)
+  - MMWormhole/Core (1.1.1)
+  - PeerKit (1.1.0)
+  - Stargate (0.0.1):
+    - MMWormhole (~> 1.1)
+    - PeerKit (~> 1.1)
+
+DEPENDENCIES:
+  - PeerKit (from `https://github.com/jpsim/PeerKit`)
+  - Stargate (from `https://github.com/contentful-labs/Stargate`)
+
+EXTERNAL SOURCES:
+  PeerKit:
+    :git: https://github.com/jpsim/PeerKit
+  Stargate:
+    :git: https://github.com/contentful-labs/Stargate
+
+CHECKOUT OPTIONS:
+  PeerKit:
+    :commit: cd1a74f64472305414d9bfeb58ac7049b05397f4
+    :git: https://github.com/jpsim/PeerKit
+  Stargate:
+    :commit: 55f98b59a18d338312fbd3b8f5e790437de5ebc8
+    :git: https://github.com/contentful-labs/Stargate
+
+SPEC CHECKSUMS:
+  MMWormhole: 941cd168b4afd6073f883b82944d6eded4e00203
+  PeerKit: 7ab365c98a6b72211f280bfd51bae898b1f50f6f
+  Stargate: a484e5b3a633f7cc62353212b73b0d2b739eac63
+
+COCOAPODS: 0.37.0
